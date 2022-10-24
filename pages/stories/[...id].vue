@@ -12,14 +12,12 @@
       <button class="slide-prev">Anterior</button>
       <button class="slide-next">Próximo</button>
     </nav>
-  </div>
-	
+  </div>	
 </template>
 
 <script setup>
 const { getItemById } = useDirectusItems();
 const route = useRoute();
-
 
 const post = await getItemById({ collection: "blog", id: route.params.id });
 if (!post) throwError("No article found, 404");
