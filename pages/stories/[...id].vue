@@ -9,7 +9,6 @@
         <h2 style="vertical-align: middle">{{ post.main_title }}</h2>
       </div>
       <img src="../img/img1.jpg" alt="Img 1" />
-
       <img src="../img/img2.jpg" alt="Img 2" />
       <img src="../img/img3.jpg" alt="Img 3" />
       <img src="../img/img4.jpg" alt="Img 4" />
