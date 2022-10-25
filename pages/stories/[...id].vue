@@ -6,7 +6,7 @@
           style="vertical-align: middle"
           src="../img/img1.jpg"
           alt=""/>
-        <h2 style="vertical-align: middle">{{ post.titles.title1 }}</h2>
+        <h2 style="vertical-align: middle">{{ post.main_title }}</h2>
       </div>
       <img src="../img/img1.jpg" alt="Img 1" />
 

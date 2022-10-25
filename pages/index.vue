@@ -2,8 +2,13 @@
 	<div>
 		<div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 			<div class="max-w-screen-sm sm:text-center sm:mx-auto">
+<<<<<<< HEAD
 				<h1>"My Directus Blog"</h1>
 				<p class="text-base text-gray-700 md:text-lg sm:px-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.</p>
+=======
+				<h2 class="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">DEVIX Academia.ai</h2>
+				<p class="text-base text-gray-700 md:text-lg sm:px-4">Webstories educacionais.</p>
+>>>>>>> 2eab57aa41c715559113dc239b5776739187a147
 				<hr class="w-full my-8 border-gray-300" />
 			</div>
 			<div class="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full" v-for="post in posts">
