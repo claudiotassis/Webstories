@@ -7,7 +7,7 @@
 				<hr class="w-full my-8 border-gray-300" />
 			</div>
 			<div class="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full" v-for="post in posts">
-				<div class="overflow-hidden transition-shadow duration-300 bg-white rounded">
+				<div class="overflow-hidden transition-shadow duration-300 bg-black rounded">
 					<div class="py-5">
 						<p class="mb-2 text-xs font-semibold text-gray-600">{{ new Date(post.date_created).toLocaleDateString() }}</p>
 						<p class="mb-2 text-xs font-semibold text-gray-600">{{ post.author }}</p>
